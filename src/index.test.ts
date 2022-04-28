@@ -1,10 +1,11 @@
-import { totalScore } from "./index"
+import { BowlingGame } from "./index";
 
-describe("In a new game, the total score is zero", () => {
-  it("returns 'wadus'", () => {
+describe("BowlingGame", () => {
+  it("In a new game, the total score is zero", () => {
     const expected = 0;
 
-    const result = totalScore();
+    const game = new BowlingGame();
+    const result = game.currentTotalScore();
 
     expect(result).toEqual(expected);
   })

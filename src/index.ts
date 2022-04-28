@@ -1,3 +1,7 @@
-export function totalScore(): any {
-  return 0
-};
+export class BowlingGame {
+
+  currentTotalScore(): any {
+
+    return 0;
+  }
+}
