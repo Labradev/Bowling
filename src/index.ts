@@ -1,3 +1,3 @@
-export function wadus(): any {
-  return "wadus"
+export function totalScore(): any {
+  return 0
 };
