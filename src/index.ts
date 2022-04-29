@@ -4,4 +4,9 @@ export class BowlingGame {
 
     return 0;
   }
+
+  throwBowlingBall(score:string): number {
+
+    return 10
+  }
 }
