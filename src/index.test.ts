@@ -18,4 +18,13 @@ describe("BowlingGame", () => {
 
     expect(result).toEqual(expected);
   })
+
+  it ("scores two strikes", () => {
+    const expected = 30;
+
+    const game = new BowlingGame();
+    const result = game.throwBowlingBall('X X')
+
+    expect(result).toEqual(expected);
+  })
 })
