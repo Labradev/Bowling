@@ -27,4 +27,13 @@ describe("BowlingGame", () => {
 
     expect(result).toEqual(expected);
   })
+
+  it ("scores three strikes", () => {
+    const expected = 60;
+
+    const game = new BowlingGame();
+    const result = game.throwBowlingBall('X X X')
+
+    expect(result).toEqual(expected);
+  })
 })
